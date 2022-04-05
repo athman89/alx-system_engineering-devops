@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -r 's/[Cc]+//g'
+tr -d 'Cc'  
